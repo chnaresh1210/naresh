@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="yahoo page TestNG">
+
+<test name="yahoo login page">
+
+<parameter name="browser" value="GoogleChrome">
+<parameter name="url" value="https://login.yahoo.com/"/>
+<parameter name="emailId" value="choppara.naresh@yahoo.com"/>
+
+<classes>
+
+<class name="ParameterTestNG.Parameter"/>
+
+</classes>
+
+</test>
+
+
+</suite>   

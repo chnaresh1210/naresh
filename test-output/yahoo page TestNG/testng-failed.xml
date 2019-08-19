@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [yahoo page TestNG]">
+  <parameter name="emailid" value="choppara.naresh@yahoo.com"/>
+  <parameter name="url" value="https://login.yahoo.com/"/>
+  <test name="yahoo login page">
+    <parameter name="emailid" value="choppara.naresh@yahoo.com"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="ParameterTestNG.Parameter"/>
+    </classes>
+  </test> <!-- yahoo login page -->
+</suite> <!-- Failed suite [yahoo page TestNG] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium testing">
+
+<test name="diffrent testing feature test">
+
+<classes>
+
+<class name="TestNG.BasicsOfTestNG"/>
+
+<class name="TestNG.ExecptionTimeOutTest"/>
+
+</classes>
+
+</test>
+
+</suite>
